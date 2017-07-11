@@ -1,0 +1,640 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'KG Ten Thousand Reasons Alt';
+    src: url('../fonts/kgtenthousandreasonsalt-webfont.eot');
+    src: url('../fonts/kgtenthousandreasonsalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kgtenthousandreasonsalt-webfont.woff2') format('woff2'),
+         url('../fonts/kgtenthousandreasonsalt-webfont.woff') format('woff'),
+         url('../fonts/kgtenthousandreasonsalt-webfont.ttf') format('truetype'),
+         url('../fonts/kgtenthousandreasonsalt-webfont.svg#kg_ten_thousand_reasons_altRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------ */
+/*                                HEADER                                    */
+/* ------------------------------------------------------------------------ */
+
+header {
+    background-image: url(../img/header-bg.jpg);
+}
+
+header .logo {
+    display: block;
+    padding: 10px 0;
+    margin: 0;
+    float: none;
+}
+
+header img {
+    display: block;
+    margin: 36px 10px;
+    float: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a {
+    color: #fff;
+    padding: 10px 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+header li a:hover {
+    color: #874487;
+}
+
+header i {
+    text-align: center;
+    color: #fff;
+    margin-top: 110px;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+header i:hover {
+    text-shadow: 0px 0px 7px rgba(250,250,250,0.75);
+    -webkit-text-shadow: 0px 0px 7px rgba(250,250,250,0.75);
+    -moz-text-shadow: 0px 0px 7px rgba(250,250,250,0.75);
+    -o-text-shadow: 0px 0px 7px rgba(250,250,250,0.75);
+}
+
+/* ------------------------------------------------------------------------ */
+/*                               MENU MOBILE                                */
+/* ------------------------------------------------------------------------ */
+
+menu {
+    width: 100%;
+    background: #222;
+    z-index: 3;
+}
+
+menu ul {
+    box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.1);
+    -o-box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+menu ul li {
+}
+
+menu ul li a {
+    display: block;
+    color: #ccc;
+    padding: 15px 0;
+    padding-left: 67px;
+    text-decoration: none;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    text-transform: uppercase;
+}
+
+menu ul li a:hover {
+    text-shadow: 0px 0px 7px rgba(250,250,250,0.1);
+    -webkit-text-shadow: 0px 0px 7px rgba(250,250,250,0.1);
+    -moz-text-shadow: 0px 0px 7px rgba(250,250,250,0.1);
+    -o-text-shadow: 0px 0px 7px rgba(250,250,250,0.1);
+    color: #874487;
+    padding-left: 77px;
+    
+}
+
+/* ------------------------------------------------------------------------ */
+/*                                BANNER                                    */
+/* ------------------------------------------------------------------------ */
+
+#banner {
+    background: url(../img/home-header-bg.jpg) center center;
+    background-size: cover;
+}
+
+    .banner-title {
+        font: 400 2.5rem 'Patua One', serif;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        margin: 150px auto;
+        padding: 30px 0;
+        color: #fff;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+/* ------------------------------------------------------------------------ */
+/*                               CONTENT                                    */
+/* ------------------------------------------------------------------------ */
+
+#welcome {
+    padding: 50px 0;
+}
+
+    #welcome .box {
+        border-left: 5px solid #dde8ea;
+    }
+
+        #welcome h5 {
+            color: #53677d;
+            font: normal 1.5rem 'Arial', 'Helvetica', sans-serif;
+            text-transform: uppercase;
+            margin: 5px;
+        }
+    
+            #welcome p {
+                margin-left: 5px;
+                color: #bdbdbd;
+            }
+
+#method {
+    background: #393939;
+    padding: 50px;
+}
+
+    #method h5 {
+        text-align: center;
+        font: normal 1.5rem 'Arial', 'Helvetica', sans-serif;
+        text-transform: uppercase;
+        margin: 5px;
+        color: #fff;
+    }
+    
+    #method span {
+        display: block;
+        text-align: center;
+        color: #bdbdbd;
+        padding-bottom: 10px;
+    }
+
+    #method img {
+        height: 100px;
+        margin: 0px auto;
+        display: block;
+        border-radius: 50px;
+        margin-top: 50px;
+    }
+
+    #method p {
+        text-align: center;
+        color: #bdbdbd;
+        padding: 5px 0;
+        margin-top: 5px;
+    }
+
+
+#team {
+    padding: 50px 0;
+}
+
+    #team h5 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #53677d;
+        font: normal 1.5rem 'Arial', 'Helvetica', sans-serif;
+        text-transform: uppercase;
+        margin: 25px;
+    }
+
+        #team img {
+            border-radius: 250px;
+            margin: 20px 0;
+        }
+
+        #team h3 {
+            font: 100 1.070rem 'Arial', Helvetica, sans-serif;
+            text-align: center;
+            color: #2b002d;
+        }
+
+        #team p {
+            font: 100 0.875rem Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #bdbdbd;
+        }
+
+        #team a {
+            color: #874487;
+            font: 600 .875rem sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px;
+            border: solid 2px #874487;
+            transition: all linear .2s;
+            -webkit-transition: all linear .2s;
+            -moz-transition: all linear .2s;
+            -o-transition: all linear .2s;
+        }
+
+        #team a:after {
+            content: "\f105";
+            font: 14px/1.2rem "FontAwesome";
+            padding-left: 10px;
+            transition: all linear .2s;
+            -webkit-transition: all linear .2s;
+            -moz-transition: all linear .2s;
+            -o-transition: all linear .2s;
+        }
+
+        #team a:hover:after {
+            padding-left: 15px;
+        }
+
+        #team a:hover {
+            color: #fff;
+            background: #874487;
+        }
+
+
+footer {
+    background: #393939;
+    padding: 15px 0;
+    border-top: solid 5px #874487;
+}
+
+    footer p {
+        text-transform: uppercase;
+        font: 100 .875rem Arial, Helvetica, sans-serif;
+        color: #8a8a8a;
+        line-height: 20px;
+        display: inline;
+    }
+
+    footer i {
+        color: #fff;
+        margin: 0 8px;
+        font-size: 20px !important;
+        transition: all linear .2s;
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -o-transition: all linear .2s;
+    }
+
+    footer i:hover {
+        color: #2b002d;
+    }
+
+/* ------------------------------------------------------------------------ */
+/*                          PÁGINAS INTERNAS                                */
+/* ------------------------------------------------------------------------ */
+
+#title-section {
+    padding: 25px 0;
+    background: #71327c;
+    color: #fff;
+}
+
+    #title-section h1 {
+        text-transform: uppercase;
+        font: 400 2rem Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+    }
+    
+    #title-section ul {
+        position: relative;
+        text-align: left;
+        text-transform: none;
+        letter-spacing: 0;
+        font: 14px/1.2rem
+    }
+
+    #title-section ul li {
+        display: inline-block;
+        line-height: 30px;
+        color: #dbc1dd;
+    }
+
+    #title-section ul li a {
+        color: #dbc1dd;
+        text-decoration: none;
+    }
+
+    #title-section ul li a:hover {
+        text-decoration: underline;
+    }
+
+    #title-section .divider {
+        padding: 0 18px;
+    }
+
+    #title-section .divider:after {
+        content: "\f105";
+        font: 14px/1.2rem "FontAwesome";
+    }
+
+/* ------------------------------------------------------------------------ */
+/*                                  SOBRE                                   */
+/* ------------------------------------------------------------------------ */
+
+#about {
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+
+    #about h1{
+        color: #53677d;
+        font: 100 1.7rem Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    #about i {
+        text-align: center;
+        display: block;
+        color: #71327c;
+        padding: 10px 0;
+    }
+
+    #about h4 {
+        color: #71327c;
+        font: 100 1rem Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    #about p {
+        text-align: center;
+        color: #8a8a8a;
+    }
+
+#awards {
+    background: #393939;
+    padding: 50px 0;
+}
+
+    #awards h1 {
+        color: #fff;
+        font: 100 1.7rem Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #awards h5 {
+        color: #874487;
+        text-align: center;
+        text-transform: uppercase;
+        font: 100 1rem Arial, Helvetica, sans-serif;
+        padding: 10px;
+    }
+
+    #awards a {
+        display: block;
+        text-align: center;
+        color: #8a8a8a;
+        text-decoration: none;
+        font: 100 .875rem Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+        transition: all linear .2s;
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -o-transition: all linear .2s;
+    }
+
+    #awards a:hover {
+        color: #874487;
+    }
+
+/* ------------------------------------------------------------------------ */
+/*                                ESCOLAS                                   */
+/* ------------------------------------------------------------------------ */
+
+#schools {
+    padding: 50px 0;
+}
+
+    #schools h3 {
+        padding: 20px 0;
+        font: 600 1.2rem Arial, Helvetica, sans-serif;
+        color: #874487;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #schools .box {
+        text-align: center;
+        border: solid 2px #2b212b;
+        margin: 20px 0;
+        height: 335px;
+    }
+
+    #schools .box-title {
+        background: url(../img/dark-blackboard.jpg);
+        padding: 10px;
+    }
+
+    #schools .box h2 {
+        text-transform: uppercase;
+        font: 100 1.4rem Arial, Helvetica, sans-serif;
+        color: #fff;
+        padding: 5px;
+    }
+
+    #schools .box h5 {
+        font: 100 .75rem 'KG Ten Thousand Reasons Alt', cursive;
+        color: #999;
+        padding: 5px;
+    }
+
+    #schools .box p {
+        text-align: left;
+        padding: 20px;
+        color: #874487;
+        line-height: 28px;
+        display: block;
+        font: 100 0.875rem Arial, Helvetica, sans-serif;
+    }
+
+    #schools .box p:before {
+        font-family: 'FontAwesome';
+        content: "\f00c";
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #schools .box a {
+        position: absolute;
+        display: inline-block;
+        color: #874487;
+        text-decoration: none;
+        font: 100 1.3rem Arial;
+        transition: all linear .2s;
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -o-transition: all linear .2s;
+        line-height: 28px;
+        padding: 5px 15px;
+        float: right;
+        right: 15px;
+        bottom: 20px;
+    }
+
+    #schools .box a:hover {
+        color: #fff;
+        background: #874487;
+    }
+
+    .clear-fix {
+        clear: both;
+    }
+
+
+
+#t-team {
+    padding: 50px 0;
+}
+
+    #t-team .box {
+        text-align: center;
+        border: solid 1px #bdbdbd;
+        margin: 20px 0;
+    }
+
+    #t-team .box figure img {
+        width: 100%;
+    }
+
+    #t-team .box h2 {
+        text-transform: uppercase;
+        font: 100 1rem Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+        color: #874487;
+    }
+
+    #t-team .box p {
+        font: 100 .875rem Arial, Helvetica, sans-serif;
+        line-height: 28px;
+        color: #8a8a8a;
+    }
+
+
+#teachers {
+    padding: 50px 0;
+    background: url(../img/blackboard.png);
+}
+
+    #teachers h1 {
+        text-align: center;
+        color: #fff;
+        font: 100 1.5rem 'KG Ten Thousand Reasons Alt', cursive;
+    }
+
+    #teachers .box {
+        text-align: center;
+        border: solid 1px #ccc;
+        margin: 20px 0;
+    }
+
+    #teachers .box h2 {
+        text-transform: uppercase;
+        font: 100 0.75rem 'KG Ten Thousand Reasons Alt', cursive;
+        padding: 10px 0;
+        color: #ccc;
+    }
+
+    #teachers .box p {
+        font: 100 .875rem 'KG Ten Thousand Reasons Alt', cursive;
+        line-height: 28px;
+        color: #8a8a8a;
+    }
+
+
+#contact {
+    padding: 50px 0;
+}
+
+    #contact p {
+        color: #8a8a8a;
+    }
+
+    #contact h1 {
+        color: #53677d;
+        font: 100 1.275rem Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #contact form {
+        margin: 0 auto;
+    }
+
+    #contact form input {
+        width: 199px;
+        height: 35px;
+        padding: 5px;
+        margin: 10px 5px;
+    }
+
+    #contact textarea {
+        padding: 5px;
+        width: 98%;
+        margin: 10px 5px;
+        resize: none;
+    }
+
+    #contact textarea,
+    #contact input {
+        font: 100 .813rem Arial, Helvetica, sans-serif;
+        border: solid 1px #8a8a8a;
+        transition: all linear .2s;
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -o-transition: all linear .2s;
+    }
+
+    #contact textarea:hover,
+    #contact input:hover {
+        border: solid 1px #874487;
+        box-shadow: 0px 0px 5px 0px rgba(135,68,135,0.5);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(135,68,135,0.5);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(135,68,135,0.5);
+        -o-box-shadow: 0px 0px 5px 0px rgba(135,68,135,0.5);
+
+    }
+
+    #contact textarea:focus,
+    #contact input:focus {
+        border: solid 1px #874487;
+        padding-left: 10px;
+    }
+
+    #contact input[type="submit"],
+    #contact input[type="reset"] {
+        border: none;
+        background: transparent;
+        font: 400 1.063rem Patua One, serif;
+        width: auto;
+        color: #8a8a8a;
+    }
+
+    #contact input[type="submit"]:hover,
+    #contact input[type="reset"]:hover {
+        color: #874487;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -o-box-shadow: none;
+        cursor: pointer;
+    }
